@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D37BFC32871454400786843 /* SelectBeanPresetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D37BFC22871454400786843 /* SelectBeanPresetVC.swift */; };
+		7D37BFC52871455C00786843 /* SelectDripPresetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D37BFC42871455C00786843 /* SelectDripPresetVC.swift */; };
+		7D37BFC72871456D00786843 /* SelectGrindPresetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D37BFC62871456D00786843 /* SelectGrindPresetVC.swift */; };
+		7D37BFCD2874713900786843 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D37BFCC2874713900786843 /* Protocol.swift */; };
+		7D3CCC1527FDAADF00805B97 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3CCC1427FDAADF00805B97 /* Colors.xcassets */; };
+		7D3CCC1727FDCF7600805B97 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3CCC1627FDCF7600805B97 /* NavigationVC.swift */; };
+		7D3CCC4027FDD7AE00805B97 /* OriginalTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3CCC3F27FDD7AE00805B97 /* OriginalTabBarControllerViewController.swift */; };
+		7D6CE1C227E8BBF40020E85E /* EditBeanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CE1C127E8BBF40020E85E /* EditBeanVC.swift */; };
+		7D7E6321287EAF0500115FA9 /* ExtensionEtc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E6320287EAF0500115FA9 /* ExtensionEtc.swift */; };
+		7D7E6323287EB38E00115FA9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E6322287EB38E00115FA9 /* Color.swift */; };
+		7D7E634C2882840400115FA9 /* BeanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E634A2882840400115FA9 /* BeanTableViewCell.swift */; };
+		7D7E634D2882840400115FA9 /* BeanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E634B2882840400115FA9 /* BeanTableViewCell.xib */; };
+		7D7E635028829CCF00115FA9 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E634E28829CCF00115FA9 /* ReviewTableViewCell.swift */; };
+		7D7E635128829CCF00115FA9 /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E634F28829CCF00115FA9 /* ReviewTableViewCell.xib */; };
+		7D7E63542882A0E800115FA9 /* DripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E63522882A0E800115FA9 /* DripTableViewCell.swift */; };
+		7D7E63552882A0E800115FA9 /* DripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E63532882A0E800115FA9 /* DripTableViewCell.xib */; };
+		7D7E63582882A30C00115FA9 /* GrindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E63562882A30C00115FA9 /* GrindTableViewCell.swift */; };
+		7D7E63592882A30C00115FA9 /* GrindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E63572882A30C00115FA9 /* GrindTableViewCell.xib */; };
+		7DAF63BA288986BA00937E6A /* ExtensionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF63B9288986BA00937E6A /* ExtensionFormViewController.swift */; };
+		7DAF63BC2889875B00937E6A /* ExtensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF63BB2889875B00937E6A /* ExtensionUIViewController.swift */; };
+		7DB598DA284E4D0D0078501B /* SortBeanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB598D9284E4D0D0078501B /* SortBeanVC.swift */; };
+		7DC857DD27E6DBDE00790EA5 /* TableBeanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC857DC27E6DBDE00790EA5 /* TableBeanVC.swift */; };
+		7DC857DF27E6E84800790EA5 /* DetailBeanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC857DE27E6E84800790EA5 /* DetailBeanVC.swift */; };
+		7DCF1EF227D497EA005E9744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF1EF127D497EA005E9744 /* AppDelegate.swift */; };
+		7DCF1EF427D497EA005E9744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF1EF327D497EA005E9744 /* SceneDelegate.swift */; };
+		7DCF1EF627D497EA005E9744 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF1EF527D497EA005E9744 /* VC.swift */; };
+		7DCF1EF927D497EA005E9744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF1EF727D497EA005E9744 /* Main.storyboard */; };
+		7DCF1EFC27D497EA005E9744 /* CoffeeMemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF1EFA27D497EA005E9744 /* CoffeeMemoApp.xcdatamodeld */; };
+		7DCF1EFE27D497EC005E9744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF1EFD27D497EC005E9744 /* Assets.xcassets */; };
+		7DCF1F0127D497EC005E9744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF1EFF27D497EC005E9744 /* LaunchScreen.storyboard */; };
+		7DD6BF8F286B52B400C12DAA /* TableDripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF8E286B52B400C12DAA /* TableDripVC.swift */; };
+		7DD6BF9B286B56D800C12DAA /* DetailGrindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF90286B56D800C12DAA /* DetailGrindVC.swift */; };
+		7DD6BF9C286B56D800C12DAA /* EditDripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF91286B56D800C12DAA /* EditDripVC.swift */; };
+		7DD6BF9D286B56D800C12DAA /* DetailReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF92286B56D800C12DAA /* DetailReviewVC.swift */; };
+		7DD6BF9E286B56D800C12DAA /* EditReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF93286B56D800C12DAA /* EditReviewVC.swift */; };
+		7DD6BF9F286B56D800C12DAA /* EditGrindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF94286B56D800C12DAA /* EditGrindVC.swift */; };
+		7DD6BFA0286B56D800C12DAA /* TableReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF95286B56D800C12DAA /* TableReviewVC.swift */; };
+		7DD6BFA1286B56D800C12DAA /* TableGrindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF96286B56D800C12DAA /* TableGrindVC.swift */; };
+		7DD6BFA2286B56D800C12DAA /* NewDripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF97286B56D800C12DAA /* NewDripVC.swift */; };
+		7DD6BFA3286B56D800C12DAA /* NewGrindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF98286B56D800C12DAA /* NewGrindVC.swift */; };
+		7DD6BFA4286B56D800C12DAA /* DetailDripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF99286B56D800C12DAA /* DetailDripVC.swift */; };
+		7DD6BFA5286B56D800C12DAA /* NewReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BF9A286B56D800C12DAA /* NewReviewVC.swift */; };
+		7DD6BFA8286B580F00C12DAA /* SortReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BFA6286B580F00C12DAA /* SortReviewVC.swift */; };
+		7DD6BFAA286B582900C12DAA /* SortDripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BFA9286B582900C12DAA /* SortDripVC.swift */; };
+		7DD6BFAC286B584400C12DAA /* SortGrindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6BFAB286B584400C12DAA /* SortGrindVC.swift */; };
+		7DE6D2AC27E5A37200F63C2C /* NewBeanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE6D2AB27E5A37200F63C2C /* NewBeanVC.swift */; };
+		ED83DFA1408D6C73079C78B5 /* Pods_CoffeeMemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CD5FAA17D58F0E88DCC5DB /* Pods_CoffeeMemoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CADE0475739B982455A968 /* Pods-CoffeeMemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMemoApp.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeMemoApp/Pods-CoffeeMemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		64CD5FAA17D58F0E88DCC5DB /* Pods_CoffeeMemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeMemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D37BFC22871454400786843 /* SelectBeanPresetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBeanPresetVC.swift; sourceTree = "<group>"; };
+		7D37BFC42871455C00786843 /* SelectDripPresetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDripPresetVC.swift; sourceTree = "<group>"; };
+		7D37BFC62871456D00786843 /* SelectGrindPresetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGrindPresetVC.swift; sourceTree = "<group>"; };
+		7D37BFCC2874713900786843 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		7D3CCC1427FDAADF00805B97 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		7D3CCC1627FDCF7600805B97 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		7D3CCC3F27FDD7AE00805B97 /* OriginalTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		7D6CE1C127E8BBF40020E85E /* EditBeanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBeanVC.swift; sourceTree = "<group>"; };
+		7D7E6320287EAF0500115FA9 /* ExtensionEtc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionEtc.swift; sourceTree = "<group>"; };
+		7D7E6322287EB38E00115FA9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7D7E634A2882840400115FA9 /* BeanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanTableViewCell.swift; sourceTree = "<group>"; };
+		7D7E634B2882840400115FA9 /* BeanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeanTableViewCell.xib; sourceTree = "<group>"; };
+		7D7E634E28829CCF00115FA9 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		7D7E634F28829CCF00115FA9 /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		7D7E63522882A0E800115FA9 /* DripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripTableViewCell.swift; sourceTree = "<group>"; };
+		7D7E63532882A0E800115FA9 /* DripTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DripTableViewCell.xib; sourceTree = "<group>"; };
+		7D7E63562882A30C00115FA9 /* GrindTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrindTableViewCell.swift; sourceTree = "<group>"; };
+		7D7E63572882A30C00115FA9 /* GrindTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrindTableViewCell.xib; sourceTree = "<group>"; };
+		7DAF63B9288986BA00937E6A /* ExtensionFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFormViewController.swift; sourceTree = "<group>"; };
+		7DAF63BB2889875B00937E6A /* ExtensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewController.swift; sourceTree = "<group>"; };
+		7DB598B0284CFEA80078501B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		7DB598B1284CFEA80078501B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7DB598D9284E4D0D0078501B /* SortBeanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortBeanVC.swift; sourceTree = "<group>"; };
+		7DC857DC27E6DBDE00790EA5 /* TableBeanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBeanVC.swift; sourceTree = "<group>"; };
+		7DC857DE27E6E84800790EA5 /* DetailBeanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBeanVC.swift; sourceTree = "<group>"; };
+		7DCF1EEE27D497EA005E9744 /* CoffeeMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCF1EF127D497EA005E9744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DCF1EF327D497EA005E9744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DCF1EF527D497EA005E9744 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
+		7DCF1EF827D497EA005E9744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DCF1EFB27D497EA005E9744 /* CoffeeMemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoffeeMemoApp.xcdatamodel; sourceTree = "<group>"; };
+		7DCF1EFD27D497EC005E9744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DCF1F0027D497EC005E9744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DCF1F0227D497EC005E9744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD6BF8E286B52B400C12DAA /* TableDripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDripVC.swift; sourceTree = "<group>"; };
+		7DD6BF90286B56D800C12DAA /* DetailGrindVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGrindVC.swift; sourceTree = "<group>"; };
+		7DD6BF91286B56D800C12DAA /* EditDripVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDripVC.swift; sourceTree = "<group>"; };
+		7DD6BF92286B56D800C12DAA /* DetailReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailReviewVC.swift; sourceTree = "<group>"; };
+		7DD6BF93286B56D800C12DAA /* EditReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditReviewVC.swift; sourceTree = "<group>"; };
+		7DD6BF94286B56D800C12DAA /* EditGrindVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGrindVC.swift; sourceTree = "<group>"; };
+		7DD6BF95286B56D800C12DAA /* TableReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableReviewVC.swift; sourceTree = "<group>"; };
+		7DD6BF96286B56D800C12DAA /* TableGrindVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableGrindVC.swift; sourceTree = "<group>"; };
+		7DD6BF97286B56D800C12DAA /* NewDripVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDripVC.swift; sourceTree = "<group>"; };
+		7DD6BF98286B56D800C12DAA /* NewGrindVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGrindVC.swift; sourceTree = "<group>"; };
+		7DD6BF99286B56D800C12DAA /* DetailDripVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailDripVC.swift; sourceTree = "<group>"; };
+		7DD6BF9A286B56D800C12DAA /* NewReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReviewVC.swift; sourceTree = "<group>"; };
+		7DD6BFA7286B580F00C12DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/SortReviewVC.swift; sourceTree = "<group>"; };
+		7DD6BFA9286B582900C12DAA /* SortDripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortDripVC.swift; sourceTree = "<group>"; };
+		7DD6BFAB286B584400C12DAA /* SortGrindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortGrindVC.swift; sourceTree = "<group>"; };
+		7DE6D2AB27E5A37200F63C2C /* NewBeanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBeanVC.swift; sourceTree = "<group>"; };
+		89DC579F493EF7B612E87E0C /* Pods-CoffeeMemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMemoApp.release.xcconfig"; path = "Target Support Files/Pods-CoffeeMemoApp/Pods-CoffeeMemoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DCF1EEB27D497EA005E9744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED83DFA1408D6C73079C78B5 /* Pods_CoffeeMemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464BB8439570DA5ABEFD924F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CD5FAA17D58F0E88DCC5DB /* Pods_CoffeeMemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DAF63BD288987B700937E6A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E6320287EAF0500115FA9 /* ExtensionEtc.swift */,
+				7DAF63B9288986BA00937E6A /* ExtensionFormViewController.swift */,
+				7DAF63BB2889875B00937E6A /* ExtensionUIViewController.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		7DCF1EE527D497EA005E9744 = {
+			isa = PBXGroup;
+			children = (
+				7DCF1EF027D497EA005E9744 /* CoffeeMemoApp */,
+				7DCF1EEF27D497EA005E9744 /* Products */,
+				DB9F6E8783FB5685BAFB119E /* Pods */,
+				464BB8439570DA5ABEFD924F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCF1EEF27D497EA005E9744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DCF1EEE27D497EA005E9744 /* CoffeeMemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DCF1EF027D497EA005E9744 /* CoffeeMemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				7DAF63BD288987B700937E6A /* Extension */,
+				7DD6BFB7286B5A1000C12DAA /* standard */,
+				7D3CCC3F27FDD7AE00805B97 /* OriginalTabBarControllerViewController.swift */,
+				7D3CCC1627FDCF7600805B97 /* NavigationVC.swift */,
+				7DCF1EF527D497EA005E9744 /* VC.swift */,
+				7DD6BFB3286B591900C12DAA /* Review */,
+				7DD6BFB6286B59D900C12DAA /* Bean */,
+				7DD6BFB4286B597200C12DAA /* Drip */,
+				7DD6BFB5286B59BA00C12DAA /* Grind */,
+				7DCF1EF727D497EA005E9744 /* Main.storyboard */,
+				7DCF1EFD27D497EC005E9744 /* Assets.xcassets */,
+				7D3CCC1427FDAADF00805B97 /* Colors.xcassets */,
+				7DCF1EFF27D497EC005E9744 /* LaunchScreen.storyboard */,
+				7DCF1F0227D497EC005E9744 /* Info.plist */,
+				7DCF1EFA27D497EA005E9744 /* CoffeeMemoApp.xcdatamodeld */,
+			);
+			path = CoffeeMemoApp;
+			sourceTree = "<group>";
+		};
+		7DD6BFB3286B591900C12DAA /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				7D37BFC22871454400786843 /* SelectBeanPresetVC.swift */,
+				7D37BFC42871455C00786843 /* SelectDripPresetVC.swift */,
+				7D37BFC62871456D00786843 /* SelectGrindPresetVC.swift */,
+				7DD6BF95286B56D800C12DAA /* TableReviewVC.swift */,
+				7D7E634E28829CCF00115FA9 /* ReviewTableViewCell.swift */,
+				7DD6BF92286B56D800C12DAA /* DetailReviewVC.swift */,
+				7DD6BF93286B56D800C12DAA /* EditReviewVC.swift */,
+				7DD6BF9A286B56D800C12DAA /* NewReviewVC.swift */,
+				7DD6BFA6286B580F00C12DAA /* SortReviewVC.swift */,
+				7D7E634F28829CCF00115FA9 /* ReviewTableViewCell.xib */,
+			);
+			name = Review;
+			sourceTree = "<group>";
+		};
+		7DD6BFB4286B597200C12DAA /* Drip */ = {
+			isa = PBXGroup;
+			children = (
+				7DD6BF8E286B52B400C12DAA /* TableDripVC.swift */,
+				7D7E63522882A0E800115FA9 /* DripTableViewCell.swift */,
+				7DD6BF99286B56D800C12DAA /* DetailDripVC.swift */,
+				7DD6BF91286B56D800C12DAA /* EditDripVC.swift */,
+				7DD6BF97286B56D800C12DAA /* NewDripVC.swift */,
+				7DD6BFA9286B582900C12DAA /* SortDripVC.swift */,
+				7D7E63532882A0E800115FA9 /* DripTableViewCell.xib */,
+			);
+			path = Drip;
+			sourceTree = "<group>";
+		};
+		7DD6BFB5286B59BA00C12DAA /* Grind */ = {
+			isa = PBXGroup;
+			children = (
+				7DD6BF96286B56D800C12DAA /* TableGrindVC.swift */,
+				7D7E63562882A30C00115FA9 /* GrindTableViewCell.swift */,
+				7DD6BF90286B56D800C12DAA /* DetailGrindVC.swift */,
+				7DD6BF94286B56D800C12DAA /* EditGrindVC.swift */,
+				7DD6BF98286B56D800C12DAA /* NewGrindVC.swift */,
+				7DD6BFAB286B584400C12DAA /* SortGrindVC.swift */,
+				7D7E63572882A30C00115FA9 /* GrindTableViewCell.xib */,
+			);
+			name = Grind;
+			sourceTree = "<group>";
+		};
+		7DD6BFB6286B59D900C12DAA /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				7DC857DC27E6DBDE00790EA5 /* TableBeanVC.swift */,
+				7D7E634A2882840400115FA9 /* BeanTableViewCell.swift */,
+				7DC857DE27E6E84800790EA5 /* DetailBeanVC.swift */,
+				7D6CE1C127E8BBF40020E85E /* EditBeanVC.swift */,
+				7DE6D2AB27E5A37200F63C2C /* NewBeanVC.swift */,
+				7DB598D9284E4D0D0078501B /* SortBeanVC.swift */,
+				7D7E634B2882840400115FA9 /* BeanTableViewCell.xib */,
+			);
+			path = Bean;
+			sourceTree = "<group>";
+		};
+		7DD6BFB7286B5A1000C12DAA /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E6322287EB38E00115FA9 /* Color.swift */,
+				7D37BFCC2874713900786843 /* Protocol.swift */,
+				7DCF1EF127D497EA005E9744 /* AppDelegate.swift */,
+				7DCF1EF327D497EA005E9744 /* SceneDelegate.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		DB9F6E8783FB5685BAFB119E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02CADE0475739B982455A968 /* Pods-CoffeeMemoApp.debug.xcconfig */,
+				89DC579F493EF7B612E87E0C /* Pods-CoffeeMemoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DCF1EED27D497EA005E9744 /* CoffeeMemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCF1F0527D497EC005E9744 /* Build configuration list for PBXNativeTarget "CoffeeMemoApp" */;
+			buildPhases = (
+				A338CD7470AF47AD96C416D3 /* [CP] Check Pods Manifest.lock */,
+				7DCF1EEA27D497EA005E9744 /* Sources */,
+				7DCF1EEB27D497EA005E9744 /* Frameworks */,
+				7DCF1EEC27D497EA005E9744 /* Resources */,
+				47FF5C771DC2F2B95F7AE05D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeMemoApp;
+			productName = CoffeeMemoApp;
+			productReference = 7DCF1EEE27D497EA005E9744 /* CoffeeMemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DCF1EE627D497EA005E9744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7DCF1EED27D497EA005E9744 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DCF1EE927D497EA005E9744 /* Build configuration list for PBXProject "CoffeeMemoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 7DCF1EE527D497EA005E9744;
+			productRefGroup = 7DCF1EEF27D497EA005E9744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DCF1EED27D497EA005E9744 /* CoffeeMemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DCF1EEC27D497EA005E9744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7E63552882A0E800115FA9 /* DripTableViewCell.xib in Resources */,
+				7D7E634D2882840400115FA9 /* BeanTableViewCell.xib in Resources */,
+				7DCF1F0127D497EC005E9744 /* LaunchScreen.storyboard in Resources */,
+				7D3CCC1527FDAADF00805B97 /* Colors.xcassets in Resources */,
+				7D7E635128829CCF00115FA9 /* ReviewTableViewCell.xib in Resources */,
+				7DCF1EFE27D497EC005E9744 /* Assets.xcassets in Resources */,
+				7D7E63592882A30C00115FA9 /* GrindTableViewCell.xib in Resources */,
+				7DCF1EF927D497EA005E9744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FF5C771DC2F2B95F7AE05D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMemoApp/Pods-CoffeeMemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMemoApp/Pods-CoffeeMemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMemoApp/Pods-CoffeeMemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A338CD7470AF47AD96C416D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeeMemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DCF1EEA27D497EA005E9744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD6BFA4286B56D800C12DAA /* DetailDripVC.swift in Sources */,
+				7D37BFC32871454400786843 /* SelectBeanPresetVC.swift in Sources */,
+				7D6CE1C227E8BBF40020E85E /* EditBeanVC.swift in Sources */,
+				7DD6BF9B286B56D800C12DAA /* DetailGrindVC.swift in Sources */,
+				7DD6BF9D286B56D800C12DAA /* DetailReviewVC.swift in Sources */,
+				7DD6BF9C286B56D800C12DAA /* EditDripVC.swift in Sources */,
+				7DD6BFA3286B56D800C12DAA /* NewGrindVC.swift in Sources */,
+				7DCF1EF627D497EA005E9744 /* VC.swift in Sources */,
+				7DC857DD27E6DBDE00790EA5 /* TableBeanVC.swift in Sources */,
+				7DD6BFA1286B56D800C12DAA /* TableGrindVC.swift in Sources */,
+				7D7E63542882A0E800115FA9 /* DripTableViewCell.swift in Sources */,
+				7D7E6323287EB38E00115FA9 /* Color.swift in Sources */,
+				7DAF63BA288986BA00937E6A /* ExtensionFormViewController.swift in Sources */,
+				7DAF63BC2889875B00937E6A /* ExtensionUIViewController.swift in Sources */,
+				7DB598DA284E4D0D0078501B /* SortBeanVC.swift in Sources */,
+				7D7E63582882A30C00115FA9 /* GrindTableViewCell.swift in Sources */,
+				7D37BFC72871456D00786843 /* SelectGrindPresetVC.swift in Sources */,
+				7D7E6321287EAF0500115FA9 /* ExtensionEtc.swift in Sources */,
+				7D7E635028829CCF00115FA9 /* ReviewTableViewCell.swift in Sources */,
+				7D37BFCD2874713900786843 /* Protocol.swift in Sources */,
+				7DCF1EFC27D497EA005E9744 /* CoffeeMemoApp.xcdatamodeld in Sources */,
+				7DD6BFA5286B56D800C12DAA /* NewReviewVC.swift in Sources */,
+				7DD6BFA2286B56D800C12DAA /* NewDripVC.swift in Sources */,
+				7D3CCC1727FDCF7600805B97 /* NavigationVC.swift in Sources */,
+				7DE6D2AC27E5A37200F63C2C /* NewBeanVC.swift in Sources */,
+				7D37BFC52871455C00786843 /* SelectDripPresetVC.swift in Sources */,
+				7DCF1EF227D497EA005E9744 /* AppDelegate.swift in Sources */,
+				7DD6BFAC286B584400C12DAA /* SortGrindVC.swift in Sources */,
+				7DCF1EF427D497EA005E9744 /* SceneDelegate.swift in Sources */,
+				7DD6BFA8286B580F00C12DAA /* SortReviewVC.swift in Sources */,
+				7DD6BF8F286B52B400C12DAA /* TableDripVC.swift in Sources */,
+				7DC857DF27E6E84800790EA5 /* DetailBeanVC.swift in Sources */,
+				7DD6BF9E286B56D800C12DAA /* EditReviewVC.swift in Sources */,
+				7DD6BFAA286B582900C12DAA /* SortDripVC.swift in Sources */,
+				7D7E634C2882840400115FA9 /* BeanTableViewCell.swift in Sources */,
+				7DD6BF9F286B56D800C12DAA /* EditGrindVC.swift in Sources */,
+				7D3CCC4027FDD7AE00805B97 /* OriginalTabBarControllerViewController.swift in Sources */,
+				7DD6BFA0286B56D800C12DAA /* TableReviewVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DCF1EF727D497EA005E9744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCF1EF827D497EA005E9744 /* Base */,
+				7DB598B0284CFEA80078501B /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DCF1EFF27D497EC005E9744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCF1F0027D497EC005E9744 /* Base */,
+				7DB598B1284CFEA80078501B /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7DD6BFA6286B580F00C12DAA /* SortReviewVC.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD6BFA7286B580F00C12DAA /* Base */,
+			);
+			name = SortReviewVC.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DCF1F0327D497EC005E9744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DCF1F0427D497EC005E9744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DCF1F0627D497EC005E9744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CADE0475739B982455A968 /* Pods-CoffeeMemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64CGK3S792;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeMemoApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真投稿のためにカメラへアクセス";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "写真投稿のためにフォトライブラリへアクセス";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryo-Endo.CoffeeMemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DCF1F0727D497EC005E9744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DC579F493EF7B612E87E0C /* Pods-CoffeeMemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64CGK3S792;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeMemoApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真投稿のためにカメラへアクセス";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "写真投稿のためにフォトライブラリへアクセス";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryo-Endo.CoffeeMemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DCF1EE927D497EA005E9744 /* Build configuration list for PBXProject "CoffeeMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCF1F0327D497EC005E9744 /* Debug */,
+				7DCF1F0427D497EC005E9744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DCF1F0527D497EC005E9744 /* Build configuration list for PBXNativeTarget "CoffeeMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCF1F0627D497EC005E9744 /* Debug */,
+				7DCF1F0727D497EC005E9744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DCF1EFA27D497EA005E9744 /* CoffeeMemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DCF1EFB27D497EA005E9744 /* CoffeeMemoApp.xcdatamodel */,
+			);
+			currentVersion = 7DCF1EFB27D497EA005E9744 /* CoffeeMemoApp.xcdatamodel */;
+			path = CoffeeMemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7DCF1EE627D497EA005E9744 /* Project object */;
+}

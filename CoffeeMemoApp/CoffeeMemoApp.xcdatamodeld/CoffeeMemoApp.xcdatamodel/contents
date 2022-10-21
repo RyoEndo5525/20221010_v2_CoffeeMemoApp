@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BeanImage" representedClassName="BeanImage" syncable="YES" codeGenerationType="class">
+        <attribute name="beanCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="beanEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="beanId" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_image1" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="BeanMemo" representedClassName="BeanMemo" syncable="YES" codeGenerationType="class">
+        <attribute name="beanCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="beanEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="beanId" optional="YES" attributeType="String"/>
+        <attribute name="beanModeSetting" optional="YES" attributeType="String"/>
+        <attribute name="beanStatus" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenbi_Blend1" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Blend2" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Blend3" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Blend4" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Single" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenndo_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hanbaiten" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_kakaku" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_kaori" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_keisiki" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_kounyuubi" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_kounyuuryou" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_namae" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Single" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DripMemo" representedClassName="DripMemo" syncable="YES" codeGenerationType="class">
+        <attribute name="dripCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="dripEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="dripId" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_dorippa" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_murasijikann_minutes" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_murasijikann_seconds" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_namae" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_ondo" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_paper" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_rinsu" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_ryou" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_sasiyu" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_tyuusyutujikann_minutes" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_tyuusyutujikann_seconds" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GrindImage" representedClassName="GrindImage" syncable="YES" codeGenerationType="class">
+        <attribute name="grindCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="grindEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="grindId" optional="YES" attributeType="String"/>
+        <attribute name="grindImage1" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="GrindMemo" representedClassName="GrindMemo" syncable="YES" codeGenerationType="class">
+        <attribute name="grindCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="grindEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="grindId" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_hikime" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_miru" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_namae" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ReviewImage" representedClassName="ReviewImage" syncable="YES" codeGenerationType="class">
+        <attribute name="beanTag_image1" optional="YES" attributeType="Binary"/>
+        <attribute name="grindTag_image1" optional="YES" attributeType="Binary"/>
+        <attribute name="reviewCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="reviewEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="reviewId" optional="YES" attributeType="String"/>
+        <attribute name="reviewTag_image1" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="ReviewMemo" representedClassName="ReviewMemo" syncable="YES" codeGenerationType="class">
+        <attribute name="beanStatus" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenbi_Blend1" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Blend2" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Blend3" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Blend4" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenbi_Single" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_baisenndo_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_baisenndo_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hanbaiten" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hinnsyu_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_hyoukou_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_kakaku" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_kaori" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_keisiki" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_kounyuubi" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="beanTag_kounyuuryou" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_namae" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_nouennmei_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_ryou_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannkoku_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seisannsya_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_seiseihouhou_Single" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend1" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend2" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend3" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Blend4" optional="YES" attributeType="String"/>
+        <attribute name="beanTag_tiiki_Single" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_dorippa" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_murasijikann_minutes" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_murasijikann_seconds" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_namae" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_ondo" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_paper" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_rinsu" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_ryou" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_sasiyu" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_tyuusyutujikann_minutes" optional="YES" attributeType="String"/>
+        <attribute name="dripTag_tyuusyutujikann_seconds" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_hikime" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_miru" optional="YES" attributeType="String"/>
+        <attribute name="grindTag_namae" optional="YES" attributeType="String"/>
+        <attribute name="reviewCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="reviewEditedDate" optional="YES" attributeType="String"/>
+        <attribute name="reviewId" optional="YES" attributeType="String"/>
+        <attribute name="reviewTag_ForSortNamae" optional="YES" attributeType="String"/>
+        <attribute name="reviewTag_hyouka" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reviewTag_konaryou" optional="YES" attributeType="String"/>
+        <attribute name="reviewTag_memo" optional="YES" attributeType="String"/>
+        <attribute name="reviewTag_namae" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BeanImage" positionX="-63" positionY="144" width="128" height="89"/>
+        <element name="BeanMemo" positionX="-63" positionY="-18" width="128" height="974"/>
+        <element name="DripMemo" positionX="-63" positionY="108" width="128" height="269"/>
+        <element name="GrindImage" positionX="-54" positionY="153" width="128" height="89"/>
+        <element name="GrindMemo" positionX="-63" positionY="144" width="128" height="149"/>
+        <element name="ReviewImage" positionX="-45" positionY="153" width="128" height="119"/>
+        <element name="ReviewMemo" positionX="-54" positionY="153" width="128" height="1304"/>
+    </elements>
+</model>

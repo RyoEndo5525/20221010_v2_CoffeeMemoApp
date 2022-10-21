@@ -1,0 +1,40 @@
+PODS:
+  - Eureka (5.3.5)
+  - ImageRow (4.0.0):
+    - Eureka (~> 5.0)
+  - SVProgressHUD (2.2.6):
+    - SVProgressHUD/Core (= 2.2.6)
+  - SVProgressHUD/Core (2.2.6)
+  - ViewRow (0.8):
+    - Eureka (>= 5.0.0)
+
+DEPENDENCIES:
+  - Eureka
+  - ImageRow (~> 4.0)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - ViewRow
+
+SPEC REPOS:
+  trunk:
+    - Eureka
+    - ImageRow
+    - ViewRow
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: de1d4dba816a19454329031156b8788692bcfa2c
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Eureka: 7b39a479d074620d43028a0e2bfc3e0d667724df
+  ImageRow: e65b2e1a33f89062bf2a553a2aad61d975eb7428
+  SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
+  ViewRow: 8da541e9c019f3be63f4e28f311a62cac2045ecf
+
+PODFILE CHECKSUM: e73501e9d31fcdd3da9bacb911f589a74063df37
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,207 @@
+
+/* Class = "UIButton"; configuration.title = "挽き方"; ObjectID = "11U-aF-9Ij"; */
+"11U-aF-9Ij.configuration.title" = "挽き方";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "11U-aF-9Ij"; */
+"11U-aF-9Ij.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "レビュー"; ObjectID = "2oS-72-qsy"; */
+"2oS-72-qsy.configuration.title" = "レビュー";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2oS-72-qsy"; */
+"2oS-72-qsy.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "新規作成"; ObjectID = "2uL-oW-cXx"; */
+"2uL-oW-cXx.title" = "新規作成";
+
+/* Class = "UIButton"; configuration.title = "抽出方法"; ObjectID = "2vX-pb-0Ga"; */
+"2vX-pb-0Ga.configuration.title" = "抽出方法";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2vX-pb-0Ga"; */
+"2vX-pb-0Ga.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "メモ"; ObjectID = "3mq-oH-5Ec"; */
+"3mq-oH-5Ec.title" = "メモ";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "4SZ-SY-glg"; */
+"4SZ-SY-glg.title" = "保存";
+
+/* Class = "UITabBarItem"; title = "レビュー"; ObjectID = "4gH-2g-Ur5"; */
+"4gH-2g-Ur5.title" = "レビュー";
+
+/* Class = "UIButton"; configuration.title = "完了"; ObjectID = "4t7-m7-n48"; */
+"4t7-m7-n48.configuration.title" = "完了";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4t7-m7-n48"; */
+"4t7-m7-n48.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "選択"; ObjectID = "Alh-cX-MX3"; */
+"Alh-cX-MX3.configuration.title" = "選択";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Alh-cX-MX3"; */
+"Alh-cX-MX3.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "抽出方法"; ObjectID = "B1m-XG-zgN"; */
+"B1m-XG-zgN.title" = "抽出方法";
+
+/* Class = "UIBarButtonItem"; title = "編集"; ObjectID = "F8F-zK-yZz"; */
+"F8F-zK-yZz.title" = "編集";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "IoS-bV-Zts"; */
+"IoS-bV-Zts.title" = "保存";
+
+/* Class = "UINavigationItem"; title = "レビュー"; ObjectID = "JAq-Rf-TQx"; */
+"JAq-Rf-TQx.title" = "レビュー";
+
+/* Class = "UIButton"; configuration.title = "完了"; ObjectID = "Jxe-pk-pVN"; */
+"Jxe-pk-pVN.configuration.title" = "完了";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jxe-pk-pVN"; */
+"Jxe-pk-pVN.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "新規作成"; ObjectID = "LjN-0T-3uC"; */
+"LjN-0T-3uC.title" = "新規作成";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "MMV-3k-06V"; */
+"MMV-3k-06V.title" = "保存";
+
+/* Class = "UITabBarItem"; title = "設定"; ObjectID = "Mxe-AN-Jmq"; */
+"Mxe-AN-Jmq.title" = "設定";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "Oua-Ut-axz"; */
+"Oua-Ut-axz.title" = "保存";
+
+/* Class = "UINavigationItem"; title = "挽き方"; ObjectID = "PG3-nG-r3f"; */
+"PG3-nG-r3f.title" = "挽き方";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "PNQ-L6-Psb"; */
+"PNQ-L6-Psb.text" = "Title";
+
+/* Class = "UIButton"; configuration.title = "キャンセル"; ObjectID = "Quy-3I-GTi"; */
+"Quy-3I-GTi.configuration.title" = "キャンセル";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Quy-3I-GTi"; */
+"Quy-3I-GTi.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "レビュー"; ObjectID = "SG7-01-s1Y"; */
+"SG7-01-s1Y.title" = "レビュー";
+
+/* Class = "UIBarButtonItem"; title = "編集"; ObjectID = "SQb-EV-zqd"; */
+"SQb-EV-zqd.title" = "編集";
+
+/* Class = "UIBarButtonItem"; title = "新規作成"; ObjectID = "Tqi-vJ-nsx"; */
+"Tqi-vJ-nsx.title" = "新規作成";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "U1m-Iw-xfK"; */
+"U1m-Iw-xfK.title" = "保存";
+
+/* Class = "UITabBarItem"; title = "カフェ"; ObjectID = "Veq-0C-dP7"; */
+"Veq-0C-dP7.title" = "カフェ";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "X28-fy-NXn"; */
+"X28-fy-NXn.title" = "保存";
+
+/* Class = "UITabBarItem"; title = "自作"; ObjectID = "Y6O-md-6hB"; */
+"Y6O-md-6hB.title" = "自作";
+
+/* Class = "UIButton"; configuration.title = "キャンセル"; ObjectID = "aMm-qp-fqs"; */
+"aMm-qp-fqs.configuration.title" = "キャンセル";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aMm-qp-fqs"; */
+"aMm-qp-fqs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "並べ替え"; ObjectID = "bjq-RN-MUF"; */
+"bjq-RN-MUF.text" = "並べ替え";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "czv-t9-yk3"; */
+"czv-t9-yk3.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "メモ"; ObjectID = "dYm-eG-7pQ"; */
+"dYm-eG-7pQ.title" = "メモ";
+
+/* Class = "UILabel"; text = "並べ替え"; ObjectID = "fg7-2g-rcO"; */
+"fg7-2g-rcO.text" = "並べ替え";
+
+/* Class = "UIBarButtonItem"; title = "新規作成"; ObjectID = "fiN-Vh-FO0"; */
+"fiN-Vh-FO0.title" = "新規作成";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "gGN-OP-yu1"; */
+"gGN-OP-yu1.title" = "保存";
+
+/* Class = "UIButton"; configuration.title = "選択"; ObjectID = "hZ1-Ld-k0y"; */
+"hZ1-Ld-k0y.configuration.title" = "選択";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hZ1-Ld-k0y"; */
+"hZ1-Ld-k0y.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "メモ"; ObjectID = "hhJ-uP-l8z"; */
+"hhJ-uP-l8z.title" = "メモ";
+
+/* Class = "UINavigationItem"; title = "メモ"; ObjectID = "i7Y-K2-Xx6"; */
+"i7Y-K2-Xx6.title" = "メモ";
+
+/* Class = "UINavigationItem"; title = "挽き方"; ObjectID = "iMa-tK-GAv"; */
+"iMa-tK-GAv.title" = "挽き方";
+
+/* Class = "UIButton"; configuration.title = "並び替え"; ObjectID = "laI-2r-sSF"; */
+"laI-2r-sSF.configuration.title" = "並び替え";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "laI-2r-sSF"; */
+"laI-2r-sSF.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "コーヒー豆"; ObjectID = "laL-Y0-BRy"; */
+"laL-Y0-BRy.configuration.title" = "コーヒー豆";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "laL-Y0-BRy"; */
+"laL-Y0-BRy.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "完了"; ObjectID = "mmC-Vb-NJd"; */
+"mmC-Vb-NJd.configuration.title" = "完了";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mmC-Vb-NJd"; */
+"mmC-Vb-NJd.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "nmr-Gd-Z75"; */
+"nmr-Gd-Z75.title" = "保存";
+
+/* Class = "UIButton"; configuration.title = "並び替え"; ObjectID = "okr-a6-Yz1"; */
+"okr-a6-Yz1.configuration.title" = "並び替え";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "okr-a6-Yz1"; */
+"okr-a6-Yz1.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "編集"; ObjectID = "pGv-hQ-bog"; */
+"pGv-hQ-bog.title" = "編集";
+
+/* Class = "UIBarButtonItem"; title = "編集"; ObjectID = "qwy-sh-wSQ"; */
+"qwy-sh-wSQ.title" = "編集";
+
+/* Class = "UIButton"; configuration.title = "キャンセル"; ObjectID = "rOk-DT-aqA"; */
+"rOk-DT-aqA.configuration.title" = "キャンセル";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rOk-DT-aqA"; */
+"rOk-DT-aqA.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "抽出方法"; ObjectID = "tE0-bF-ntI"; */
+"tE0-bF-ntI.title" = "抽出方法";
+
+/* Class = "UIButton"; configuration.title = "選択"; ObjectID = "tSl-1f-w2L"; */
+"tSl-1f-w2L.configuration.title" = "選択";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tSl-1f-w2L"; */
+"tSl-1f-w2L.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "並び替え"; ObjectID = "tTH-Du-KQ4"; */
+"tTH-Du-KQ4.configuration.title" = "並び替え";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tTH-Du-KQ4"; */
+"tTH-Du-KQ4.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "コーヒー豆"; ObjectID = "vuj-eY-VnJ"; */
+"vuj-eY-VnJ.title" = "コーヒー豆";
+
+/* Class = "UILabel"; text = "並べ替え"; ObjectID = "xAb-nb-qo3"; */
+"xAb-nb-qo3.text" = "並べ替え";
+
+/* Class = "UINavigationItem"; title = "コーヒーメモ"; ObjectID = "z43-0w-QXO"; */
+"z43-0w-QXO.title" = "コーヒーメモ";
